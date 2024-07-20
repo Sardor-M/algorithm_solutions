@@ -1,0 +1,15 @@
+.idea/
+*.iml
+
+.vscode/
+
+bin/
+lib/
+
+out/
+
+# Project files
+*.iml
+
+neetcode_solutions/bin/
+neetcode_solutions/out/
