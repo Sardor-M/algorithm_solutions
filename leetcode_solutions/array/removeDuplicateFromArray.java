@@ -1,3 +1,4 @@
+package array;
 /**
  *  Remove dupliactes from Sorted Array
  * 
