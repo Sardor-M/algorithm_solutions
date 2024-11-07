@@ -20,10 +20,12 @@ public class mergeSortedArr {
         int k = m + n - 1; // pointer to the end of merged arr
 
         for(; i >= 0 && j >=0; k--) {
+            // we compare the last elements of both arrays
             if(nums1[i] > nums2[j]){
                 nums1[k] = nums1[i];
-                i--;
+                i--; // move the pointer to the left
             } else {
+                // we copy nums2[j] to nums1[k]     
                 nums1[k] = nums2[j];
                 j--;
             }
