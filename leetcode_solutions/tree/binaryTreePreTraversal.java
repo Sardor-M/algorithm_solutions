@@ -30,7 +30,7 @@ import javax.swing.tree.TreeNode;
  */
 
 
-public class binaryTreeTraversal {
+public class binaryTreePreTraversal {
     public List<Integer> preorderTraversal(TreeNode root){
         List<Integer> result = new ArrayList<Integer>();
         preorderHelper(root, result);

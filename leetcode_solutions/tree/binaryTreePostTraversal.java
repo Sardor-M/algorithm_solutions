@@ -2,7 +2,6 @@ package tree;
 
 import java.util.ArrayList;
 import java.util.List;
-
 import javax.swing.tree.TreeNode;
 
 /**
@@ -12,7 +11,6 @@ import javax.swing.tree.TreeNode;
  * Given the root of a binary tree, return the postorder traversal of its nodes' values.
  * 
  */
-
 
  /**
  * Definition for a binary tree node.
