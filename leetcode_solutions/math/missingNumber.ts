@@ -4,6 +4,13 @@
  *
  */
 
+/**
+ *
+ * Time complexity: O(n) | Chunki reduce() methodi arrayni bir marta o'qib chiqadi
+ * Space complexity: O(1) | Chunki bizda qo'shimcha memory ishlatilmaydi
+ *
+ */
+
 function missingNumber(nums: number[]): number {
   let n = nums.length;
   let total = (n * (n + 1)) / 2;
