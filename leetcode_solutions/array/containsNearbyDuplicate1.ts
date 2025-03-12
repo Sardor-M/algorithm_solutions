@@ -1,4 +1,4 @@
-function containsNearbyDuplicate(nums: number[], k: number): boolean {
+function containsNearbyDuplicate1(nums: number[], k: number): boolean {
   // Map yaratish orqali eng recent bo'lgan har bir
   // raqamni indexini saqlaymiz
   const numberMap = new Map<number, number>();
