@@ -1,17 +1,22 @@
 /**
- * 
- * O copmlexity: O(n)
- * 
+ *
+ * O copmlexity: O(log n)
+ *
  */
 
-function maximumCount(nums: number[]): number {
-  let positiveCount = 0;
-  let negativeCount = 0;
-  let result = 0;
+function search(nums: number[], target: number): number {
+  let low = 0;
+  let high = nums.length - 1;
 
-  for (let i = 0; i < nums.length; i++) {
-    if (nums[i] > 0) positiveCount++;
-    if (nums[i] < 0) negativeCount++;
+  while (low <= high) {
+    let middle = Math.floor((low + high) / 2);
+    if (nums[middle] === target) {
+      return middle;
+    } else if (nums[middle] < target) {
+      low = middle + 1;
+    } else {
+      high = middle - 1;
+    }
   }
-  return (result = Math.max(positiveCount, negativeCount));
+  return -1;
 }
