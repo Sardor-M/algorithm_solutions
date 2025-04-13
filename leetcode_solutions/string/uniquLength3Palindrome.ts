@@ -1,3 +1,13 @@
+/**
+ * 
+ * Time complexity is O(n) + O(1) × O(n) = O(n).
+ * 
+ * Space complexity is O(1): 
+ * the uniqueMiddleChars set stores at most 26 unique characters: O(1)
+ * 
+ */
+
+
 function countPalindromicSubsequence(s: string): number {
     const first = {};
     const last = {};
