@@ -2,7 +2,6 @@
  * Time Complexity: O(n) - since total operations are linear so it will be O(n)
  * Space Complexity: O(1) - meaning that we do not need a more memory regardless of input size
  */
-
 function longestNiceSubarray(nums: number[]): number {
   // var to store the max length
   let maxLength = 0;
